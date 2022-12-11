@@ -1,0 +1,66 @@
+body{
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* #outercard{
+    border-color: black;
+    display: flex;
+} */
+.card{
+    background-color: black;
+    /* padding-left: 20%; */
+    margin-left: 33%;
+    margin-top: 3.5%;
+    height: 87vh;
+    width: 35vw;
+    background-origin: padding-box;
+    border-radius: 20%;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    box-shadow:  0 2% 2% 0 #6b6b83;
+}
+ img{
+
+    background-color: antiquewhite;
+    height: 20vh;
+    width: 20vh;
+    align-content: center;
+    margin-top: 20%;
+    margin-bottom: 0;
+    border-radius: 50%;
+    /* padding-bottom: 3%; */
+    
+}
+h1{
+    color: crimson;
+    align-items: center;
+    /* font-size: 35px; */
+}
+h2{
+    color: burlywood;
+    text-align: center;
+}
+ p{
+    color:antiquewhite;
+    font-size: medium;
+}
+.skillset{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+ul{
+    padding-top: 0;
+    margin-top: 0;
+    list-style:square;
+}
